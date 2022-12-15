@@ -1,0 +1,85 @@
+.carousel-caption .btn{
+   background: transparent !important;
+   color: blue;
+   border: 2px solid rgb(154, 148, 148);
+}
+.carousel-caption .btn:hover{
+    background-color: brown !important;
+    color: rgb(255, 255, 255);
+    border: none;
+ }
+
+ .service-cards .card{
+   background-color: whitesmoke;
+   /* background: linear-gradient(rgba(175, 180, 200, 0.95), rgba(37, 54, 121, 0.95)); */
+   height: 450px;
+   display: flex;
+   justify-content: center !important;
+   align-items: center !important;
+   border: none !important;
+   color: rgb(9, 38, 71);
+ }
+ .service-cards .card:hover{
+  
+  
+  filter: drop-shadow(0 20px 15px  rgb(255, 255, 255));
+ }
+
+ .service-cards .card img{
+   height: 100px;
+   width: 100px;
+   border-radius: 50%;
+ }
+
+ .sercce-card-btn {
+   background-color: black;
+   color: white 
+   !important;
+ }
+ .service-cards .card:hover .sercce-card-btn {
+    margin-top: 60px;
+ }
+ .service-cards .card:hover .card-img-top {
+  margin-top: -20px;
+  transition: ease-in-out 0.5s;
+}
+
+
+
+
+.sercce-card-btn{/*dent around button*/
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: rgba(3, 169, 244, 0.54);
+  width: 70px;
+  height: 70px;
+  border-radius: 60%;
+  text-align: center;
+  background: #0572a5;
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.08);
+ }
+
+.sercce-card-btn .fa {/*Button itself*/
+  position: absolute;
+  content: '';
+  width: 68px;
+  height: 65px;
+  line-height: 80px;
+  vertical-align: middle; 
+  left: 0px;
+  top: 0px;
+  border-radius: 50%;
+  font-size: 40px;
+  background-image: -webkit-linear-gradient(#148a99 0%, #d6d6d6 100%);
+  background-image: linear-gradient(#e8e8e8 0%, #d6d6d6 100%);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.66);
+  box-shadow: inset 0 2px 0 rgba(255,255,255,0.5), 0 2px 2px rgba(0, 0, 0, 0.19);
+  border-bottom: solid 2px #b5b5b5;
+}
+ 
+.sercce-card-btn .fa:active{
+  background-image: -webkit-linear-gradient(#efefef 0%, #d6d6d6 100%);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.5), 0 2px 2px rgba(0, 0, 0, 0.19);
+  border-bottom: solid 2px #d8d8d8;
+}
